@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="styles.css" />
+		<!-- FAVICON -->
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<!-- BOXICONS -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<!-- SWIPER CSS -->
+		<link rel="stylesheet" href="swiper.css" />
+		<title>Chișinău | Berds Hotel</title>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="#" class="nav__logo">
+					Berd's Hotel
+					<i class="bx bx-bed"></i>
+				</a>
+
+				<div class="nav__menu">
+					<ul class="nav__list">
+						<!-- 1 -->
+						<li class="nav__item">
+							<a href="#" class="nav__link">
+								<i class="bx bx-home-alt-2"></i>
+								<span>Home</span>
+							</a>
+						</li>
+						<!-- 2 -->
+						<li class="nav__item">
+							<a href="#selection" class="nav__link">
+								<i class="bx bx-building-house"></i>
+								<span>Residences</span>
+							</a>
+						</li>
+						<!-- 3 -->
+						<li class="nav__item">
+							<a href="#value" class="nav__link">
+								<i class="bx bx-award"></i>
+								<span>Value</span>
+							</a>
+						</li>
+						<!-- 4 -->
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">
+								<i class="bx bx-phone"></i>
+								<span>Contact</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<a href="#" class="button nav__button"> Subscribe </a>
+			</nav>
+		</header>
+
+		<!-- main -->
+		<main class="main">
+			<!-- HOME SECTION -->
+			<section class="home section" alt="home">
+				<div class="home__container container grid">
+					<!-- content -->
+					<div class="home__data">
+						<h1 class="home__title">
+							Discover <br />
+							Most Suitable <br />
+							Property
+						</h1>
+
+						<p class="home__description">
+							Find a variety of properties that suit you very easily, forget all
+							difficulties in finding a residence for you
+						</p>
+						<!-- form -->
+						<form action="" class="home__search">
+							<i class="bx bxs-map"></i>
+							<input
+								type="search"
+								placeholder="Search location.."
+								class="home__search-input"
+							/>
+							<button class="button">Search</button>
+						</form>
+						<!-- value -->
+						<div class="home__value">
+							<!-- 1 -->
+							<div>
+								<h1 class="home__value-number">9K <span>+</span></h1>
+								<span class="home__value-description">
+									Premium <br />
+									Product
+								</span>
+							</div>
+							<!-- 2 -->
+							<div>
+								<h1 class="home__value-number">2K <span>+</span></h1>
+								<span class="home__value-description">
+									Happy <br />
+									Customer
+								</span>
+							</div>
+							<!-- 3 -->
+							<div>
+								<h1 class="home__value-number">28K <span>+</span></h1>
+								<span class="home__value-description">
+									Awards <br />
+									Collected
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- image -->
+					<div class="home__images">
+						<div class="home__berds">
+							<div class="home__img">
+								<img src="img/berdsHotel.jpg" alt="Berds-Hotel" />
+							</div>
+						</div>
+				</div>
+			</section>
+
+			<!-- LOGOS SECTION -->
+			<section class="logos section" alt="logos">
+				<div class="logos__container container grid">
+					<!--1-->
+					<div class="logos__img">
+						<img src="img/logo1.png" alt="prologis" />
+					</div>
+					<!--1-->
+					<div class="logos__img">
+						<img src="img/logo2.png" alt="american-tower" />
+					</div>
+					<!--1-->
+					<div class="logos__img">
+						<img src="img/logo3.png" alt="equinix" />
+					</div>
+					<!--1-->
+					<div class="logos__img">
+						<img src="img/logo4.png" alt="digital-reality" />
+					</div>
+				</div>
+			</section>
+
+			<!-- SELECTION -->
+			<section class="selection section" id="selection">
+				<div class="container">
+					<span class="section__subtitle"> Best Choise </span>
+					<h2 class="section__title">Our Apartaments</h2>
+
+					<div class="selection__container swiper mySwiper">
+						<div class="swiper-wrapper">
+							<!--1-->
+							<article class="selection__card swiper-slide">
+								<img
+									src="img/prestige.png"
+									alt="prestige"
+									class="selection__img"
+								/>
+
+								<div class="selection__info">
+									<h2 class="selection__price">
+										70$
+										<span class="selection__span">at night</span>
+									</h2>
+									<h3 class="selection__title">Prestige Suit</h3>
+									<p class="selection__description">
+										An asotic room equipped with a fireplace, combined with rich
+										decor elements, institutions woven carpets and comfortable
+										furniture.
+									</p>
+								</div>
+							</article>
+							<!--2-->
+							<article class="selection__card swiper-slide">
+								<img
+									src="img/signature.jpg"
+									alt="prestige"
+									class="selection__img"
+								/>
+
+								<div class="selection__info">
+									<h2 class="selection__price">
+										50$
+										<span class="selection__span">at night</span>
+									</h2>
+									<h3 class="selection__title">Signature Suit</h3>
+									<p class="selection__description">
+										62 square meters of sophistication and design. An elegant
+										two-room suite with a spacious living room and a stunning
+										bedroom with a leather desk.
+									</p>
+								</div>
+							</article>
+							<!--3-->
+							<article class="selection__card swiper-slide">
+								<img
+									src="img/spectacular.jpg"
+									alt="prestige"
+									class="selection__img"
+								/>
+
+								<div class="selection__info">
+									<h2 class="selection__price">
+										40$
+										<span class="selection__span">at night</span>
+									</h2>
+									<h3 class="selection__title">Spectacular Suit</h3>
+									<p class="selection__description">
+										The spacious Spectacular Rooms are at least 40 square meters
+										and feature a whirlpool bath with an additional TV and bed
+									</p>
+								</div>
+							</article>
+							<!--4-->
+							<article class="selection__card swiper-slide">
+								<img
+									src="img/superior.jpg"
+									alt="prestige"
+									class="selection__img"
+								/>
+
+								<div class="selection__info">
+									<h2 class="selection__price">
+										40$
+										<span class="selection__span">at night</span>
+									</h2>
+									<h3 class="selection__title">Superior Suit</h3>
+									<p class="selection__description">
+										Our superior room is 25 square meters and features a
+										comfortable king-size bed, a cozy living room, a work area,
+										and a stylish bathroom.
+									</p>
+								</div>
+							</article>
+						</div>
+
+						<div class="swiper-button-next">
+							<i class="bx bx-chevron-right"></i>
+						</div>
+						<div class="swiper-button-prev">
+							<i class="bx bx-chevron-left"></i>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- VALUE SPONSION [guarantee]-->
+			<section class="value section" id="value">
+				<div class="value__container container grid">
+					<div class="value__images">
+						<div class="value__berd"></div>
+
+						<div class="value__img">
+							<img src="img/valueMD.jpg" alt="value" />
+						</div>
+					</div>
+
+					<div class="value__content">
+						<div class="value__data">
+							<span class="section__subtitle"> Our Value </span>
+							<h2 class="section__title">Value we give to you</h2>
+							<p class="value__description">
+								We are committed to delivering top-quality service tailored for
+								you. We trust that a comfortable home enhances your quality of
+								life.
+							</p>
+						</div>
+
+						<div class="value__sponsion">
+							<!-- 1 -->
+
+							<div class="value__sponsion-item">
+								<header class="value__sponsion-header">
+									<i class="bx bxs-shield-x value__sponsion-icon"></i>
+									<h3 class="value__sponsion-title">
+										Best interest rates on the market
+									</h3>
+									<div class="value__sponsion-heart">
+										<i class="bx bxs-circle"></i>
+									</div>
+								</header>
+								<div class="value__sponsion-content">
+									<p class="value__sponsion-description">
+										We offer optimal pricing for your benefit, ensuring no
+										unexpected cost adjustments will affect your property.
+									</p>
+								</div>
+							</div>
+
+							<!-- 2 -->
+
+							<div class="value__sponsion-item">
+								<header class="value__sponsion-header">
+									<i class="bx bxs-x-square value__sponsion-icon"></i>
+									<h3 class="value__sponsion-title">Prevent ustable prices</h3>
+									<div class="value__sponsion-heart">
+										<i class="bx bxs-circle"></i>
+									</div>
+								</header>
+								<div class="value__sponsion-content">
+									<p class="value__sponsion-description">
+										We offer the best price and guarantee no changes to your
+										property cost due to unexpected expenses.
+									</p>
+								</div>
+							</div>
+
+							<!-- 3 -->
+
+							<div class="value__sponsion-item">
+								<header class="value__sponsion-header">
+									<i class="bx bxs-bar-chart-square value__sponsion-icon"></i>
+									<h3 class="value__sponsion-title">
+										Best prices on the market
+									</h3>
+									<div class="value__sponsion-heart">
+										<i class="bx bxs-circle"></i>
+									</div>
+								</header>
+								<div class="value__sponsion-content">
+									<p class="value__sponsion-description">
+										We offer optimal pricing for your benefit, ensuring no
+										unexpected cost adjustments will affect your property.
+									</p>
+								</div>
+							</div>
+
+							<!-- 4 -->
+
+							<div class="value__sponsion-item">
+								<header class="value__sponsion-header">
+									<i class="bx bxs-check-square value__sponsion-icon"></i>
+									<h3 class="value__sponsion-title">Security of your data</h3>
+									<div class="value__sponsion-heart">
+										<i class="bx bxs-circle"></i>
+									</div>
+								</header>
+								<div class="value__sponsion-content">
+									<p class="value__sponsion-description">
+										We offer the best price and guarantee no changes to your
+										property cost due to unexpected expenses.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTACTS -->
+			<section class="contact section" id="contact">
+				<div class="contact__container container grid">
+					<div class="contact__image">
+						<img src="img/berdshotel2.jpg" alt="" class="contact__img" />
+					</div>
+
+					<div class="contact__container">
+						<div class="contact__data">
+							<span class="section__subtitle"> Contact Us </span>
+							<h2 class="section__title">Easy to Contact us</h2>
+							<p class="contact__description">
+								Having trouble finding your dream home? Looking for help with
+								your first purchase? Or need advice on housing matters? Reach
+								out to us.
+							</p>
+						</div>
+
+						<div class="contact__card">
+                            <!--1-->
+
+							<div class="contact__card-box">
+								<div class="contact__card-info">
+                                        <i class="bx bxs-phone"></i>
+									<div>
+										<h3 class="contact__card-title">
+                                            Call
+                                        </h3>
+
+										<p class="contact__card-description">
+                                            +3730000000
+                                        </p>
+									</div>
+								</div>
+
+								<button class="button contact__card-button">
+                                    <a href="tel:+3730000000">Call Now</a>
+								</button>
+                                </div>
+                                <!--2-->
+
+							<div class="contact__card-box">
+								<div class="contact__card-info">
+                                    <i class="bx bxs-chat"></i>
+									<div>
+										<h3 class="contact__card-title">
+                                            Chat
+                                        </h3>
+
+										<p class="contact__card-description">
+                                            Online chat
+                                        </p>
+									</div>
+								</div>
+
+								<button class="button contact__card-button">
+									<a href="#">
+                                        Chat Now
+                                    </a>
+								</button>
+                                </div>
+                                    
+                                <!--3-->
+
+							<div class="contact__card-box">
+								<div class="contact__card-info">
+                                    <i class="bx bxs-envelope"></i>
+									<div>
+										<h3 class="contact__card-title">Mail us</h3>
+
+										<p class="contact__card-description">
+                                            Send mail
+                                        </p>
+									</div>
+								</div>
+
+								<button class="button contact__card-button">
+                                    <a href="mailto:chat@gmail.com">
+										Message
+									</a>
+								</button>
+							</div>
+
+                            <!-- 4 -->
+                            <div class="contact__card-box">
+								<div class="contact__card-info">
+                                    <i class="bx bxs-briefcase"></i>
+									<div>
+										<h3 class="contact__card-title">Vacancies</h3>
+
+										<p class="contact__card-description">
+                                            Work with us
+                                        </p>
+									</div>
+								</div>
+
+								<button class="button contact__card-button">
+                                    <a href="mailto:chat@gmail.com">
+										Message
+									</a>
+								</button>
+							</div>
+				</div>
+			</section>
+
+            <!--SUBSCRIBE-->
+            <section class="subscribe section" id="subscribe">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Get Started With Berd's Hotel
+                    </h1>
+                    <p class="subscribe__description">
+                        Subscribe and find super attractive price
+                        quotes from us, find your residence soon
+                    </p>
+                    <a href="#selection" class="button subscribe__button">
+                        Get Started
+                    </a>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+             <section class="footer section" id="footer">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__logo">
+                            Berd's Hotel
+				        	<i class="bx bx-bed"></i>
+                        </a>
+                        <p class="footer_description">
+                            Our vision is to make all people <br>
+                            the best place to live for them.
+                        </p>
+                    </div>
+
+                    <div class="footer__content">
+                        <div>
+                            <h3 class="footer__title">Follow Us</h3>
+
+                            <ul class="footer__social">
+                                 <a href="https://www.facebook.com" class="footer__social-link">
+                                    <i class="bx bxl-facebook"></i>
+                                 </a>
+                                 <a href="https://www.twitter.com" class="footer__social-link">
+                                    <i class="bx bxl-twitter"></i>
+                                 </a>
+                                 <a href="https://www.tiktok.com" class="footer__social-link">
+                                    <i class="bx bxl-pinterest-alt"></i>
+                                 </a> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="footer__info container">
+					<span class="footer__copy">
+						Denis Bekchev, ChatGPT, Youtube WITH HELP <br>
+						<i class="bx bxs-heart"></i>
+					</span>
+
+
+				</div>
+             </section>
+
+		</main>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper -->
+		<script>
+		  var swiper = new Swiper(".mySwiper", {
+			navigation: {
+			  nextEl: ".swiper-button-next",
+			  prevEl: ".swiper-button-prev",
+			},
+		  });
+		</script>
+	</body>
+</html>
